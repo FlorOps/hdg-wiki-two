@@ -2,26 +2,28 @@
 title: New Home
 date: 2024-11-05T00:00:00+00:00
 authors: The Lorets
-draft: true
+draft: false
 description: Test of the new home page for the guide
 Params:
   icon: "question"
 weight: 10
 layout: "new-home"
 ---
-{{< cards cols="3">}}
+{{< cards cols="3" size="large">}}
   {{< card link="docs" title="Read HDG" icon="user" image="/img/cards/lise-flort.png"  >}}
   {{< card link="about" title="Make HDG" icon="user" image="/img/cards/promilie-ngnm.png" >}}
   {{< card link="docs" title="Community" icon="book-open" image="/img/cards/rae-faq.png" >}}
 {{< /cards >}}
-{{< cards cols="4">}}
-  {{< card link="docs" title="FAQ" icon="book-open" image="/img/cards/promilie-default.png" size="small" tag="small" >}}
-  {{< card link="about" title="Foundational Works" icon="book-open" image="/img/cards/promilie-default.png" size="small" tag="small">}}
-  {{< card link="docs" title="Glossary" icon="user" image="/img/cards/promilie-default.png" size="small" tag="small">}}
+
+{{< cards cols="4" size="medium">}}
+  {{< card link="docs" title="FAQ" icon="book-open" image="/img/cards/promilie-default.png" >}}
+  {{< card link="about" title="Foundational Works" icon="book-open" image="/img/cards/promilie-default.png">}}
+  {{< card link="docs" title="Glossary" icon="user" image="/img/cards/promilie-default.png" >}}
 {{< /cards >}}
-{{< cards cols="5">}}
-  {{< card link="docs" title="Affini Compact" icon="book-open" image="/img/cards/promilie-default.png" tag="small" >}}
-  {{< card link="about" title="Terran Accord" icon="book-open" image="/img/cards/promilie-default.png" size="small">}}
-  {{< card link="docs" title="Florets" icon="user" image="/img/cards/promilie-default.png" size="small">}}
+
+{{< cards cols="5" size="tiny">}}
+  {{< card link="docs" title="Affini Compact" icon="book-open" image="/img/cards/promilie-default.png"  >}}
+  {{< card link="about" title="Terran Accord" icon="book-open" image="/img/cards/promilie-default.png" >}}
+  {{< card link="docs" title="Florets" icon="user" image="/img/cards/promilie-default.png">}}
   {{< card link="docs" title="Xenodrugs" icon="book-open" image="/img/cards/promilie-default.png">}}
 {{< /cards >}}

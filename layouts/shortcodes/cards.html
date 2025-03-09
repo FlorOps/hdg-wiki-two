@@ -1,0 +1,4 @@
+{{- $cols := .Get "cols" | default 3 -}}
+{{- $size := .Get "size" | default "large" -}}
+
+{{- partial "shortcodes/cards" (dict "cols" $cols "size" $size "content" .Inner) -}}

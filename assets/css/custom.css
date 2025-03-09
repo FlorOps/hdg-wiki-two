@@ -670,12 +670,14 @@ background-color: rgba(var(--hdg-clerkyellow));
   }
 
 /* Home Page Cards*/
-  .hextra-card-small {
+  .hdg-cards-small * {
     max-width: 200px;
   }
-
-  .hextra-card-large {
-    max-width: 800px;
+/* Home Page Cards*/
+.hdg-cards-medium * {
+  max-width: 250px;
+}
+  .hdg-cards-large * {
   }
 
   .hextra-cards {
