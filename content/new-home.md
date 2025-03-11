@@ -21,7 +21,7 @@ layout: "new-home"
   {{< card link="docs" title="Glossary" icon="user" image="/img/cards/promilie-default.png" >}}
 {{< /cards >}}
 
-{{< cards cols="5" size="tiny">}}
+{{< cards cols="5" size="small">}}
   {{< card link="docs" title="Affini Compact" icon="book-open" image="/img/cards/promilie-default.png"  >}}
   {{< card link="about" title="Terran Accord" icon="book-open" image="/img/cards/promilie-default.png" >}}
   {{< card link="docs" title="Florets" icon="user" image="/img/cards/promilie-default.png">}}
